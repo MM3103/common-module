@@ -15,7 +15,6 @@
     <artifactId>dependency-management-bom</artifactId>
     <packaging>pom</packaging>
 
-
     <dependencyManagement>
         <dependencies>
             <dependency>
