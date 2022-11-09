@@ -10,8 +10,8 @@
         <relativePath>../dependency-management-bom/pom.xml</relativePath>
     </parent>
 
+    <artifactId>common-core</artifactId>
     <packaging>jar</packaging>
-    <artifactId>core</artifactId>
 
     <dependencies>
         <dependency>
@@ -30,6 +30,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.liquibase</groupId>
+            <artifactId>liquibase-core</artifactId>
+            <version>4.10.0</version>
         </dependency>
 
         <dependency>

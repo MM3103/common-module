@@ -1,4 +1,4 @@
-package liga.medical.commonmodule.core;
+package liga.medical.common.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
